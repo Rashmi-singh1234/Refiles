@@ -1,0 +1,56 @@
+Through xpath
+
+>>homepage
+    //a[text()="Today's Deals"]
+    //input[@value=""]
+    //span[text()="All"][@class="hm-icon-label"]/preceding-sibling::i
+    //span[contains(text(),'Select your address')]/parent::*/child::span[1]
+    //div[@id="nav-tools"]/descendant::span[4]
+
+    for search icon:-
+     //input[@value="Go"]
+     //[contains(@id,'search-submit-text')]/child::input
+
+>>Signup
+    //span[contains(text(),"Continue")]
+    //input[@type="password"]
+    
+>>purchase
+    //button[@value="Buy"]/parent::*
+
+Through Css-->>
+
+>>login zomato
+      button[class='sc-1kx5g6g-1 elxuhW sc-PLyBE lgOAyP']
+      input[type="number"][placeholder="Phone number"]
+      section[label='Email']>label:nth-of-type(1)
+>homepage
+      ul[role="menu"]>li:nth-of-type(2)>a
+      img[alt="Order Food Online"]
+      body:nth-child(2)> div:nth-child(2) >div
+      a[href="/mobile"]
+      Search for restaurant, cuisine or a dish"
+      circle[label="Phone"]
+      img[src='https://b.zmtcdn.com/web/small/963036be03420f1bbc0c94f6f7991b8e1587804874.jpeg']
+>Add restuarant
+      Products
+      Register your restaurant on Zomato
+      #TabLink__1
+>Signup
+      Continue with Google"
+
+>>amazon signup through Css
+      input[id$='email']
+      span[id^='continue-a']
+      Forgot pass
+      a[id*='change']
+      Need help
+      p>a[href*="/gp/help/customer"]
+      input[type='submit'][id^='co']
+
+>>amazon search
+      form[role="search"]
+      
+
+
+
